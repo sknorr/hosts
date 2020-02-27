@@ -1,0 +1,51 @@
+! Trello traffic/cycle wasters
+||trello-backgrounds.s3.amazonaws.com^
+||butlerfortrello.com^
+! openSUSE/MF/Bugzilla login page where I have a different stylesheet
+*$stylesheet,domain=login.microfocus.com
+*/include.php?file=*ftr*.html$domain=login.microfocus.com
+*/jquery.prettyPhoto.js$domain=login.microfocus.com
+*/geophone.php$domain=login.microfocus.com
+! SUSE.com
+||livechatinc.com^$third-party,important
+||mktossl.com^$third-party,important
+||visualwebsiteoptimizer.com^$third-party,important
+||lookbookhq.com^$third-party,important
+! tracking on random news sites
+||spiegel.de/staticgen/data_imports/gutscheine/
+||spiegel.de/static/sys/spltcs/js/spvisitor.js
+||ioam.de^$third-party,important
+||omny.fm^$third-party,important
+||omnycontent.com^$third-party,important
+||nr-data.net^$third-party,important
+||exactag.com^$third-party,important
+||cdn*.optimizely.com^$third-party,important
+||vfd2dyn.vodafone.de^$third-party,important
+||adalliance.io^$third-party,important
+||research.de.com^$third-party,important
+||criteo.net^$third-party,important
+||criteo.com^$third-party,important
+||parsely.com^$third-party,important
+||summerhamster.com^$third-party,important
+||newrelic.com^$third-party,important
+||adobedtm.com^$third-party,important
+||advertising.com^$third-party,important
+||doubleclick.net^$third-party,important
+||trvdp.com^$third-party,important
+||adv.ettoday.net^$third-party,important
+! googley-eyed
+||adservice.google.*^$third-party,important
+||google-analytics.com^$third-party,important
+||googletagmanager.com^$third-party,important
+||googletagservices.com^$third-party,important
+||googleadservices.com^$third-party,important
+||googlesyndication.com^$third-party,important
+! pseudo-surveys
+||actionbutton.co^$third-party,important
+||opinary.com^$third-party,important
+||civey.com^$third-party,important
+! browser push messages
+||cleverpush.com^$third-party,important
+! exceptions
+@@||10.160.64.4^
+@@||duckduckgo.com^
