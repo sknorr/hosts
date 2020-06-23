@@ -1,0 +1,39 @@
+# About
+
+This repo contains a few files that I use for personal ad/annoyance blocking
+purposes.
+Feel free to reuse them.
+However, do note that I cannot provide support for them.
+You may also find that they break certain web behavior that I do not find
+useful, though you may.
+
+## Files
+
+### Output Files
+
+* `hosts`, https://git.io/hosts.sk - output hosts file for NetGuard
+* `ublock.txt`, https://git.io/ublock.sk - output adblock filters for
+  uBlock Origin.
+  Used in conjunction with/complements the following upstream filters:
+  * uBlock filters
+  * uBlock filters – Badware risks
+  * uBlock filters – Privacy
+  * uBlock filters – Resource abuse
+  * uBlock filters – Unbreak
+  * EasyList
+  * AdGuard Tracking Protection
+  * EasyPrivacy
+  * Fanboy’s Enhanced Tracking List
+  * Malware Domain List
+  * Malware domains
+  * Anti-Facebook
+  * Fanboy’s Social
+  * Peter Lowe’s Ad and tracking server list
+  * DEU: EasyList Germany
+  * Adblock Warning Removal List
+
+  ### Input Files
+
+  * [StevenBlack's compiled hosts files](https://raw.githubusercontent.com/StevenBlack/hosts)
+  * `addendum` - the (very short) list of hosts I want to block in addition
+  * `concat.sh` - a script to bolt my `addendum` onto StevenBlack's list
