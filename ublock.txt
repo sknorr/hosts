@@ -3,6 +3,24 @@
 ||butlerfortrello.com^
 ! MSO forwarding notification
 outlook.office365.com##._3ZKg7s0nAnus154pCTvyce
+! block images delivered directly in HTML mail & contact pictures
+outlook.office365.com/owa/service.svc/s/GetPersonaPhoto?*
+attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
+! try to block tracker images in OWA, bad luck if the the trackers are coming from Akamai or MS domains :(
+! this also blocks the useless IM integration (does not allow skype.com/lync.com) woohoo.
+*$script,image,domain=outlook.office365.com
+@@||a-msedge.net^$script,image,domain=outlook.office365.com
+@@||akadns.net^$script,image,domain=outlook.office365.com
+@@||akamai.net^$script,image,domain=outlook.office365.com
+@@||akamaiedge.net^$script,image,domain=outlook.office365.com
+@@||akamaihd.net^$script,image,domain=outlook.office365.com
+@@||azure.com^$script,image,domain=outlook.office365.com
+@@||l-msedge.net^$script,image,domain=outlook.office365.com
+@@||microsoftonline.com^$script,image,domain=outlook.office365.com
+@@||msedge.net^$script,image,domain=outlook.office365.com
+@@||office.com^$script,image,domain=outlook.office365.com
+@@||office.net^$script,image,domain=outlook.office365.com
+@@||office365.com^$script,image,domain=outlook.office365.com
 ! SUSE.com
 ||livechatinc.com^$third-party,important
 ||mktossl.com^$third-party,important
