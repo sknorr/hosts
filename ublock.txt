@@ -61,6 +61,9 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||civey.com^$third-party,important
 ! browser push messages
 ||cleverpush.com^$third-party,important
+! LinkedIn authwall, https://github.com/geordgez/linkedin-login-wall-css
+linkedin.*###advocate-modal
+linkedin.*##body.advocate-modal-visible:style(overflow:visible;)
 ! exceptions
 @@||10.160.64.4^
 @@||duckduckgo.com^
