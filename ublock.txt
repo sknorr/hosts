@@ -26,6 +26,8 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||mktossl.com^$third-party,important
 ||visualwebsiteoptimizer.com^$third-party,important
 ||lookbookhq.com^$third-party,important
+! Red Hat
+||redhat.com/sysadmin/eloqua-embedded
 ! tracking on random news sites
 ||spiegel.de/staticgen/data_imports/gutscheine/
 ||spiegel.de/static/sys/spltcs/js/spvisitor.js
@@ -55,6 +57,7 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||googletagservices.com^$third-party,important
 ||googleadservices.com^$third-party,important
 ||googlesyndication.com^$third-party,important
+||translate.googleapis.com^$third-party,important
 ! pseudo-surveys
 ||actionbutton.co^$third-party,important
 ||opinary.com^$third-party,important
@@ -63,6 +66,8 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||intercomcdn.com^$third-party,important
 ||intercom.io^$third-party,important
 ||intercomassets.com^$third-party,important
+! share buttons
+||addtoany.com^$third-party,important
 ! browser push messages
 ||cleverpush.com^$third-party,important
 ! LinkedIn authwall, https://github.com/geordgez/linkedin-login-wall-css
