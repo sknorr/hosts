@@ -66,6 +66,8 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||intercomcdn.com^$third-party,important
 ||intercom.io^$third-party,important
 ||intercomassets.com^$third-party,important
+||api.drift.com^$third-party,important
+||js.driftt.com^$third-party,important
 ! share buttons
 ||addtoany.com^$third-party,important
 ! browser push messages
