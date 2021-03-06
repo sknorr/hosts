@@ -6,7 +6,7 @@ outlook.office365.com##._3ZKg7s0nAnus154pCTvyce
 ! block images delivered directly in HTML mail & contact pictures
 outlook.office365.com/owa/service.svc/s/GetPersonaPhoto?*
 attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
-! try to block tracker images in OWA, bad luck if the the trackers are coming from Akamai or MS domains :(
+! try to block tracker images in OWA, bad luck if the trackers are coming from Akamai or MS domains :(
 ! this also blocks the useless IM integration (does not allow skype.com/lync.com) woohoo.
 *$script,image,domain=outlook.office365.com
 @@||a-msedge.net^$script,image,domain=outlook.office365.com
@@ -58,6 +58,9 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||googleadservices.com^$third-party,important
 ||googlesyndication.com^$third-party,important
 ||translate.googleapis.com^$third-party,important
+! ad-bidding, apparently
+||getpublica.com^$third-party,important
+||publica-ctv.com^$third-party,important
 ! pseudo-surveys
 ||actionbutton.co^$third-party,important
 ||opinary.com^$third-party,important
@@ -66,12 +69,16 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||intercomcdn.com^$third-party,important
 ||intercom.io^$third-party,important
 ||intercomassets.com^$third-party,important
-||api.drift.com^$third-party,important
-||js.driftt.com^$third-party,important
+||drift.com^$third-party,important
+||driftt.com^$third-party,important
 ! share buttons
 ||addtoany.com^$third-party,important
 ! browser push messages
 ||cleverpush.com^$third-party,important
+! newsletter nags
+||convertkit.com^$third-party,important
+! YouTube video overlays
+youtube.com##.ytp-ce-element
 ! LinkedIn authwall, https://github.com/geordgez/linkedin-login-wall-css
 linkedin.*###advocate-modal
 linkedin.*##body.advocate-modal-visible:style(overflow:visible;)
