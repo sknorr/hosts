@@ -65537,3 +65537,5 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.addtoany.com
 0.0.0.0 js.driftt.com
 0.0.0.0 presence.api.drift.com
+0.0.0.0 f.convertkit.com
+0.0.0.0 app.convertkit.com
