@@ -75,6 +75,7 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||intercomassets.com^$third-party,important
 ||drift.com^$third-party,important
 ||driftt.com^$third-party,important
+||forethought.ai^$third-party,important
 ! share buttons
 ||addtoany.com^$third-party,important
 ! browser push messages
