@@ -84,9 +84,5 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||convertkit.com^$third-party,important
 ! YouTube video overlays
 youtube.com##.ytp-ce-element
-! LinkedIn authwall, https://github.com/geordgez/linkedin-login-wall-css
-linkedin.*###advocate-modal
-linkedin.*##body.advocate-modal-visible:style(overflow:visible;)
 ! exceptions
-@@||10.160.64.4^
 @@||duckduckgo.com^
