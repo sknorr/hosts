@@ -81,8 +81,11 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*
 ||addtoany.com^$third-party,important
 ! browser push messages
 ||cleverpush.com^$third-party,important
+||pusherapp.com^$third-party,important
 ! newsletter nags
 ||convertkit.com^$third-party,important
+! Trusted(?) shops
+||ehi-siegel.de^$third-party,important
 ! YouTube video overlays
 youtube.com##.ytp-ce-element
 ! exceptions
