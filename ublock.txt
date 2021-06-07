@@ -30,7 +30,6 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*^$image,impor
 ||buy.suse.com^$third-party,important
 ||cookielaw.org^$domain=suse.com,important
 ||onetrust.com^$domain=suse.com,important
-||www.suse.com/*.ttf
 ! Red Hat
 ||redhat.com/sysadmin/eloqua-embedded
 ! tracking on random news sites
