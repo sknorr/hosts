@@ -76,6 +76,9 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*^$image,impor
 ||drift.com^$third-party,important
 ||driftt.com^$third-party,important
 ||forethought.ai^$third-party,important
+||no-cache.hubspot.com^$third-party,important
+||app.hubspot.com^$third-party,important
+||usemessages.com^$third-party,important
 ! share buttons
 ||addtoany.com^$third-party,important
 ! browser push messages
@@ -83,6 +86,14 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*^$image,impor
 ||pusherapp.com^$third-party,important
 ! newsletter nags
 ||convertkit.com^$third-party,important
+||tinypass.com^$third-party,important
+||lightboxcdn.com^$third-party,important
+||lightboxapi.azurewebsites.net^$third-party,important
+! Ars
+arstechnica.com##.inline-playlist
+||cnevids.com^$third-party,important
+||cloudfront.net^$important,domain=arstechnica.com
+arstechnica.com/services/latest.php
 ! Trusted(?) shops
 ||ehi-siegel.de^$third-party,important
 ! YouTube video overlays
