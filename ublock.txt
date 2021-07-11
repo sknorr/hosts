@@ -30,6 +30,7 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*^$image,impor
 ||buy.suse.com^$third-party,important
 ||cookielaw.org^$domain=suse.com,important
 ||onetrust.com^$domain=suse.com,important
+||buy.suse.com^$important,domain=www.suse.com
 ! Red Hat
 ||redhat.com/sysadmin/eloqua-embedded
 ! tracking on random news sites
@@ -62,6 +63,7 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*^$image,impor
 ||googleadservices.com^$third-party,important
 ||googlesyndication.com^$third-party,important
 ||translate.googleapis.com^$third-party,important
+! fonts.googleapis.com -> Block via LocalCDN which also provides the Material Icons font used on Google domains
 ! ad-bidding, apparently
 ||getpublica.com^$third-party,important
 ||publica-ctv.com^$third-party,important
@@ -89,6 +91,7 @@ attachments.office.net/owa/*/service.svc/s/GetAttachmentThumbnail?*^$image,impor
 ||tinypass.com^$third-party,important
 ||lightboxcdn.com^$third-party,important
 ||lightboxapi.azurewebsites.net^$third-party,important
+||mailerlite.com^$third-party,important
 ! Ars
 arstechnica.com##.inline-playlist
 ||cnevids.com^$third-party,important
@@ -98,5 +101,9 @@ arstechnica.com/services/latest.php
 ||ehi-siegel.de^$third-party,important
 ! YouTube video overlays
 youtube.com##.ytp-ce-element
+! Cookiebana
+||privacy-mgmt.com^$third-party,important
+||cdn.cookielaw.org^$third-party,important
+||cookie-cdn.cookiepro.com^$third-party,important
 ! exceptions
 @@||duckduckgo.com^
